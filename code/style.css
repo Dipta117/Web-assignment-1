@@ -1,10 +1,17 @@
 .logo{
     color:#4e47ff;
-    font-size: 34px;
+    
     font-family:"Inter";
     font-weight: 900;
     
 }
+
+html,body{
+padding:0;
+margin:0;
+}
+
+
 header{
      background-image: url('../Assets/Hero-bg.png');
     background-repeat: no-repeat;
@@ -18,7 +25,7 @@ header{
     display: flex;
     justify-content: space-between;
     gap:auto;
-    padding:0px 50px;
+    padding:50px 100px;
     align-items: center;
    
 }
@@ -73,7 +80,7 @@ height: 48px;
 /* main */
 
 main{
-    background-color: rgba(214,221,237,.4);
+    background-color: rgba(214,221,237,.3);
 }
 /* action-design */
 
@@ -262,6 +269,7 @@ main{
 /* newsletter design */
 .newsletter{
     margin:0 90px;
+    padding-bottom: 100px;
 }
 .newsletter-sec{
     display: flex;
@@ -330,4 +338,45 @@ font-weight: 400;
     font-size: 16px;
     font-family: 'Raleway';
     font-weight: Bold;
+}
+
+/* footer-design */
+.footer-sec{
+    padding:150px 0 100px 0px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.footer-txt
+{
+    text-align: center;
+}
+
+.footer-sub{
+   justify-content: center;
+   padding:0 510px;
+}
+
+.f-sub-txt{
+    color:#8987A1;
+    font-family: sans-serif;
+}
+
+
+footer ul{
+   
+    display: flex;
+ gap:48px;
+    list-style: none;
+    padding-left:575px;
+    padding-top: 5px;
+
+    
+}
+
+footer li a{
+    text-decoration: none;
+    color:#8987A1;
+}
+
+footer li a:hover{
+    color:red;
 }
