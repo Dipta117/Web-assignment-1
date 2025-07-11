@@ -97,3 +97,46 @@ height: 48px;
     font-weight: 700;
     font-family: 'Raleway';
 }
+
+/* Productive user design */
+
+.productive-user{
+    background-color: rgba(78,71,255,.1);
+    padding:30px 50px;
+    border-radius: 24px;
+    margin:100px;
+}
+.user-info{
+    display: flex;
+    gap:100px;
+    text-align: center;
+    justify-content: center;
+}
+.user-text{
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+
+.usr-num{
+    font-weight: 700;
+    font-family: 'Inter';
+    font-size: 80px;
+    color:#4e47ff;
+    margin: 0px 30px;
+    
+   
+}
+
+.p-usr-sub{
+    color:rgba(0,0,0,.5);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+    margin-top: 0;
+   
+    
+    
+}
