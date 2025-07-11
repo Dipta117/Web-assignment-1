@@ -35,6 +35,11 @@ button{
     font-size: 16px;
 
 }
+
+button:hover{
+    background-color: yellow;
+    color:black
+}
 .signup-btn{
     width:132px;
     height: 48px;
@@ -216,4 +221,36 @@ main{
     font-weight: 400;
   
     font-family: sans-serif;
+}
+
+
+/* focus section */
+
+.focus{
+    text-align: center;
+    background-color: white;
+    
+    padding:90px 150px;
+    border-radius: 14px;
+    padding-bottom: 50px;
+    margin:0 100px;
+
+}
+
+.focus-txt{
+    font-family: 'Raleway';
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.focus-btn{
+    width:198px;
+    font-weight: 400;
+}
+
+.focus-img{
+    border-radius: 48px;
+    width:950px;
+    height:400px;
+   
 }
