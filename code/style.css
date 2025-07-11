@@ -10,7 +10,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     
-    height: 650px;
+    height: 698px;
     
 }
 
@@ -64,13 +64,19 @@ height: 48px;
     
 }
 
+
+/* main */
+
+main{
+    background-color: rgba(214,221,237,.4);
+}
 /* action-design */
 
 .action{
     display: flex;
    
     justify-content: space-between;
-    padding:100px 100px;
+    padding:150px  100px;
     gap:auto;
 }
 .action-col-1
@@ -104,7 +110,7 @@ height: 48px;
     background-color: rgba(78,71,255,.1);
     padding:30px 50px;
     border-radius: 24px;
-    margin:100px;
+    margin:0 100px;
 }
 .user-info{
     display: flex;
@@ -139,4 +145,75 @@ height: 48px;
    
     
     
+}
+
+
+/* review-design */
+
+.review{
+    padding:100px 100px;
+}
+.review-txt{
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 42px;
+    padding-bottom: 30px;
+}
+.star-pic{
+    display: inline-block;
+}
+
+.review-sec{
+    display: flex;
+    justify-content: space-around;
+}
+
+.review-card{
+    background-color:rgba(255,255,255,.5) ;
+    border:3px solid rgba(242,237,237,0.9);
+    border-radius: 14px;
+    padding-top:20px;
+    padding-left: 15px;
+    padding-right: 80px;
+    margin-right:20px;
+    padding-bottom: 30px;
+   
+}
+
+.reviewer-sec{
+    display: inline-flex;
+   align-items: center;
+   gap: 15px;
+ 
+  
+}
+
+.card-txt{
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+
+.card-sub-txt{
+   
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+   
+}
+
+.reviewer-name{
+    color:#666666;
+    font-family: sans-serif;
+    margin-bottom:10px ;
+    padding-top: 10px;
+    font-weight: bold;
+    
+}
+.date
+{
+    color:#999999;
+    font-weight: 400;
+  
+    font-family: sans-serif;
 }
