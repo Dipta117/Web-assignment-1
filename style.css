@@ -45,7 +45,8 @@ button{
 
 button:hover{
     background-color: yellow;
-    color:black
+    color:black;
+    font-size: 18px;
 }
 .signup-btn{
     width:132px;
@@ -401,4 +402,5 @@ footer li a{
 
 footer li a:hover{
     color:red;
+    font-size: 19px;
 }
