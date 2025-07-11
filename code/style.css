@@ -64,12 +64,15 @@ font-family: 'Raleway';
     max-width: 905px;
     padding-top:120px;
     padding-left: 300px;
-   
+   margin-bottom: 35px;
  
 }
 .hero-btn{
-display: block;
-margin-left: 700px;
+    
+
+
+margin-left: 670px; 
+text-align: center;
 width:174px;
 height: 48px;
 
@@ -100,12 +103,14 @@ main{
     font-weight: 700;
     font-family: 'Raleway';
     font-size: 42px;
+    margin-bottom: 15px;
 }
 .action-sub{
     font-size: 24px;
     font-family: 'Raleway';
  font-weight: 400;
     color:rgba(37, 36, 50, 0.5);
+    margin-bottom: 30px;
 
 }
 
@@ -214,19 +219,25 @@ main{
     font-family: sans-serif;
     font-weight: 400;
     margin-bottom: 20px;
+    color:rgba(0,0,0,0.9)
    
+}
+.reviewer-info{
+    height: 50px;
+
 }
 
 .reviewer-name{
     color:#666666;
     font-family: sans-serif;
-    margin-bottom:10px ;
-    padding-top: 10px;
+    margin-bottom:6px ;
+    padding-top: 6px;
     font-weight: bold;
     
 }
 .date
 {
+   
     color:#999999;
     font-weight: 400;
   
@@ -251,11 +262,19 @@ main{
     font-family: 'Raleway';
     font-size: 50px;
     font-weight: bold;
+    
+}
+
+.focus-txt-sub{
+    color:rgba(0,0,0,0.5);
+    font-family: sans-serif;
+    
 }
 
 .focus-btn{
     width:198px;
     font-weight: 400;
+    text-align: center;
 }
 
 .focus-img{
@@ -336,6 +355,7 @@ font-weight: 400;
 .touch-btn{
     width: 600px;
     font-size: 16px;
+    height: 62px;
     font-family: 'Raleway';
     font-weight: Bold;
 }
@@ -352,7 +372,8 @@ font-weight: 400;
 
 .footer-sub{
    justify-content: center;
-   padding:0 510px;
+   padding:0 505px;
+   font-family: sans-serif;
 }
 
 .f-sub-txt{
@@ -364,9 +385,9 @@ font-weight: 400;
 footer ul{
    
     display: flex;
- gap:48px;
+ gap:46px;
     list-style: none;
-    padding-left:575px;
+    padding-left:565px;
     padding-top: 5px;
 
     
@@ -375,6 +396,7 @@ footer ul{
 footer li a{
     text-decoration: none;
     color:#8987A1;
+     font-family: sans-serif;
 }
 
 footer li a:hover{
