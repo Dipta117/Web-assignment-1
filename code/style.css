@@ -156,7 +156,10 @@ main{
 /* review-design */
 
 .review{
-    padding:100px 100px;
+    padding-top:100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 80px;
 }
 .review-txt{
     text-align: center;
@@ -233,7 +236,7 @@ main{
     padding:90px 150px;
     border-radius: 14px;
     padding-bottom: 50px;
-    margin:0 100px;
+    margin:30px 100px;
 
 }
 
@@ -253,4 +256,78 @@ main{
     width:950px;
     height:400px;
    
+}
+
+
+/* newsletter design */
+.newsletter{
+    margin:0 90px;
+}
+.newsletter-sec{
+    display: flex;
+    justify-content: space-between;
+    gap:auto;
+}
+
+.newsletter-txt{
+    font-size: 97px;
+    font-weight: bold;
+    font-family: 'Raleway';
+    padding-top:300px ;
+    padding-right:100px;
+}
+
+form{
+    padding-top:200px;
+   
+}
+label{
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 500;
+    margin-right:10px;
+
+}
+ input{
+    margin-top: 10px;
+   height:20px;
+border-radius: 10px;
+background-color: white;
+display: block;
+width:570px;
+
+margin-bottom: 24px;
+border:2px solid #D6DDED;
+font-size: 20px;
+padding-top:20px;
+padding-bottom: 20px;
+padding-left:30px;
+font-family: 'Inter';
+font-weight: 400;
+
+}
+
+textarea{
+    padding-top:20px;
+margin-top:10px;
+padding-left:30px;
+      border-radius: 10px;
+background-color: white;
+display: block;
+width:470px;
+height: 160px;
+padding-right:100px;
+margin-bottom: 24px;
+border:2px solid #D6DDED;
+
+font-size: 20px;
+font-family: 'Inter';
+font-weight: 400;
+}
+
+.touch-btn{
+    width: 600px;
+    font-size: 16px;
+    font-family: 'Raleway';
+    font-weight: Bold;
 }
